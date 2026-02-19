@@ -1,8 +1,9 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000'
-
+  baseURL: 'https://conceito-node-backend.onrender.com'
 })
+
+
 
 export default api
