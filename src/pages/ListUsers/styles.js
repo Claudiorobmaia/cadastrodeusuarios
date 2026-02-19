@@ -55,6 +55,7 @@ export const CardUsers = styled.div`
     align-items: center;
     gap: 20px;
     max-width: 380px;
+    min-width: 0;
 
     h3 {
         color: #131212;
@@ -62,16 +63,17 @@ export const CardUsers = styled.div`
         font-weight: 600;
         margin-bottom: 3px;
         text-transform: capitalize;
+        word-break: break-word;
     }
 
     p {
         color: #131212;
         font-size: 14px;
         font-weight: 400;
+        word-break: break-word;
     }
-
-
 `
+
 
 export const TrashIcon = styled.img`
     cursor: pointer;
